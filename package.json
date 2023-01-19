@@ -1,0 +1,31 @@
+{
+    "name": "@coraltravelcenter/b2c-landing",
+    "version": "0.0.1",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CoralTravelCenter/b2c-landing.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Me",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CoralTravelCenter/b2c-landing/issues"
+    },
+    "homepage": "https://github.com/CoralTravelCenter/b2c-landing#readme",
+    "dependencies": {
+        "@parcel/config-default": "^2.8.2",
+        "@parcel/core": "^2.8.2",
+        "@parcel/transformer-coffeescript": "^2.8.2",
+        "@parcel/transformer-less": "^2.8.2",
+        "@parcel/transformer-pug": "^2.8.2",
+        "app-root-path": "^3.1.0",
+        "jsdom": "^21.0.0",
+        "yargs": "^17.6.2"
+    },
+    "bin": {
+        "b2c-landing": "./bin/index.mjs"
+    }
+}
