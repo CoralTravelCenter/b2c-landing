@@ -152,6 +152,7 @@
         ]
     },
     "resolvers": [
+        "parcel-resolver-ignore-assets",
         "@parcel/resolver-default"
     ],
     "reporters": [
