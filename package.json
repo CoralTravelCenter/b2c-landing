@@ -32,6 +32,7 @@
         "b2c-landing": "./bin/index.mjs"
     },
     "workspaces": [
-        "packages/parcel-resolver-ignore-assets"
+        "packages/parcel-resolver-ignore-assets",
+        "packages/parcel-transformer-page-descriptor"
     ]
 }
