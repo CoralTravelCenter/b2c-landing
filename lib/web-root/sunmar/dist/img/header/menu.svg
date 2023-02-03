@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="40px" viewBox="0 0 62 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Ui-Kit" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ui-kit" transform="translate(-141.000000, -5300.000000)" fill="#0E2855" fill-rule="nonzero">
+            <g id="Group-8" transform="translate(141.000000, 5300.000000)">
+                <rect id="Rectangle" x="0" y="0" width="62" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" x="0" y="13" width="44" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" x="0" y="25" width="28" height="3" rx="1.5"></rect>
+                <rect id="Rectangle" x="0" y="37" width="14" height="3" rx="1.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
