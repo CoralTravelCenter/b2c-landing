@@ -21,6 +21,9 @@
             "@parcel/transformer-js",
             "@parcel/transformer-react-refresh-wrap"
         ],
+        "*.page.{json,json5}": [
+            "parcel-transformer-page-descriptor"
+        ],
         "*.{json,json5}": [
             "@parcel/transformer-json"
         ],
