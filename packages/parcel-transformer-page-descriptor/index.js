@@ -8,7 +8,6 @@ module.exports = new Transformer({
         let deps = typeof page_descriptor.contents === 'string' ? [page_descriptor.contents] : page_descriptor.contents;
         for (let dep of deps) {
             asset.addDependency({ specifier: dep });
-            // asset.invalidateOnFileChange(await resolve(asset.filePath, dep));
         }
         return [asset];
     },
