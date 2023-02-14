@@ -23,6 +23,7 @@
         "@parcel/transformer-inline-string": "^2.8.3",
         "@parcel/transformer-less": "^2.8.2",
         "@parcel/transformer-pug": "^2.8.2",
+        "@parcel/transformer-sass": "^2.8.3",
         "@parcel/transformer-yaml": "^2.8.3",
         "app-root-path": "^3.1.0",
         "browser-sync": "^2.27.11",
