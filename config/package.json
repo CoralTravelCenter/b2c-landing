@@ -47,25 +47,26 @@
         "@parcel/transformer-posthtml": "2.8.2",
         "@parcel/transformer-raw": "2.8.2",
         "@parcel/transformer-react-refresh-wrap": "2.8.2",
-        "@parcel/transformer-svg": "2.8.2"
-    },
-    "parcelDependencies": {
+        "@parcel/transformer-svg": "2.8.2",
         "parcel-resolver-ignore-assets": "1.0.0",
         "parcel-transformer-page-descriptor": "1.0.0",
-        "@parcel/optimizer-data-url": "2.8.2",
+        "@parcel/optimizer-data-url": "2.8.3",
+        "@parcel/transformer-coffeescript": "2.8.2",
+        "@parcel/transformer-inline-string": "2.8.3",
+        "@parcel/transformer-less": "2.8.2",
+        "@parcel/transformer-pug": "2.8.2",
+        "@parcel/transformer-sass": "2.8.3",
+        "@parcel/transformer-yaml": "2.8.3"
+    },
+    "parcelDependencies": {
         "@parcel/packager-raw-url": "2.8.2",
         "@parcel/packager-ts": "2.8.2",
         "@parcel/packager-xml": "2.8.2",
-        "@parcel/transformer-coffeescript": "2.8.2",
         "@parcel/transformer-elm": "2.8.2",
         "@parcel/transformer-glsl": "2.8.2",
         "@parcel/transformer-graphql": "2.8.2",
-        "@parcel/transformer-inline-string": "2.8.2",
         "@parcel/transformer-jsonld": "2.8.2",
-        "@parcel/transformer-less": "2.8.2",
         "@parcel/transformer-mdx": "2.8.2",
-        "@parcel/transformer-pug": "2.8.2",
-        "@parcel/transformer-sass": "2.8.2",
         "@parcel/transformer-stylus": "2.8.2",
         "@parcel/transformer-sugarss": "2.8.2",
         "@parcel/transformer-toml": "2.8.2",
@@ -73,8 +74,7 @@
         "@parcel/transformer-vue": "2.8.2",
         "@parcel/transformer-webmanifest": "2.8.2",
         "@parcel/transformer-worklet": "2.8.2",
-        "@parcel/transformer-xml": "2.8.2",
-        "@parcel/transformer-yaml": "2.8.2"
+        "@parcel/transformer-xml": "2.8.2"
     },
     "peerDependencies": {
         "@parcel/core": "^2.8.2"
