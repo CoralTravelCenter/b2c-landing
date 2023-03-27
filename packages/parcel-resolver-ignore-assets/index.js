@@ -6,7 +6,7 @@ module.exports = new Resolver({
     async resolve(resolver_param) {
         const { pipeline, specifier, options: { env }, dependency } = resolver_param;
         console.log("--- pipeline: %o; specifier: %o", pipeline, specifier);
-        const asset_abs_path = dependency.resolveFrom && resolvePath(dirname(dependency.resolveFrom), specifier.replace(/^~?\//, ''));
+        const asset_abs_path = dependency.resolveFrom && resolvePath(dirname(dependency.resolveFrom), specifier.replace(/^~?[\/\\]/, ''));
         if (!specifier) {
             return { isExcluded: true };
         }
