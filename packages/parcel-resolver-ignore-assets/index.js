@@ -10,7 +10,7 @@ module.exports = new Resolver({
             return { isExcluded: true };
         }
         if (asset_abs_path && env.localAssetsPath && pathToFileURL(asset_abs_path).pathname.includes(env.localAssetsPath) && !pipeline) {
-            console.log("+++ Resolver excludes: %o", specifier);
+            // console.log("+++ Resolver excludes: %o", specifier);
             return { isExcluded: true };
         }
         return null;
