@@ -16,8 +16,6 @@
     },
     "homepage": "https://github.com/CoralTravelCenter/b2c-landing#readme",
     "dependencies": {
-        "parcel-resolver-ignore-assets": "./packages/parcel-resolver-ignore-assets",
-        "parcel-transformer-page-descriptor": "./packages/parcel-transformer-page-descriptor",
         "@parcel/config-default": "^2.8.2",
         "@parcel/core": "^2.8.2",
         "@parcel/optimizer-data-url": "^2.8.3",
@@ -34,6 +32,10 @@
         "jsdom": "^21.0.0",
         "json5": "^2.2.3",
         "mustache": "^4.2.0",
+        "parcel-resolver-ignore-assets": "./packages/parcel-resolver-ignore-assets",
+        "parcel-transformer-page-descriptor": "./packages/parcel-transformer-page-descriptor",
+        "jstransformer-typo": "./packages/jstransformer-typo",
+        "typograf": "^7.0.0",
         "yargs": "^17.6.2"
     },
     "bin": {
