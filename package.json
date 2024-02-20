@@ -1,6 +1,6 @@
 {
     "name": "@coraltravelcenter/b2c-landing",
-    "version": "0.1.2",
+    "version": "0.3.0",
     "description": "",
     "repository": {
         "type": "git",
@@ -31,6 +31,7 @@
         "find-up": "^6.3.0",
         "fs-extra": "^11.1.0",
         "jsdom": "^21.0.0",
+        "jsesc": "^3.0.2",
         "json5": "^2.2.3",
         "jstransformer-typo": "./packages/jstransformer-typo",
         "mustache": "^4.2.0",
