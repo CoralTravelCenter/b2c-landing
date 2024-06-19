@@ -38,6 +38,7 @@
         "json5": "^2.2.3",
         "jstransformer-typo": "./packages/jstransformer-typo",
         "mustache": "^4.2.0",
+        "ora": "^8.0.1",
         "parcel-resolver-ignore-assets": "./packages/parcel-resolver-ignore-assets",
         "parcel-transformer-page-descriptor": "./packages/parcel-transformer-page-descriptor",
         "typograf": "^7.0.0",
