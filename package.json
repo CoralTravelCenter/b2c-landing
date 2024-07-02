@@ -37,6 +37,7 @@
         "jsesc": "^3.0.2",
         "json5": "^2.2.3",
         "jstransformer-typo": "./packages/jstransformer-typo",
+        "lodash": "^4.17.21",
         "mustache": "^4.2.0",
         "ora": "^8.0.1",
         "parcel-resolver-ignore-assets": "./packages/parcel-resolver-ignore-assets",
