@@ -44,6 +44,7 @@
         "ora": "^8.0.1",
         "parcel-resolver-ignore-assets": "./packages/parcel-resolver-ignore-assets",
         "parcel-transformer-page-descriptor": "./packages/parcel-transformer-page-descriptor",
+        "simple-git": "^3.25.0",
         "typograf": "^7.0.0",
         "yargs": "^17.6.2"
     },
