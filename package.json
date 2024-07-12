@@ -16,7 +16,7 @@
     },
     "homepage": "https://github.com/CoralTravelCenter/b2c-landing#readme",
     "dependencies": {
-        "@coraltravelcenter/backoffice-api": "file:../backoffice-api",
+        "@coraltravelcenter/backoffice-api": "^0.0.1",
         "@parcel/config-default": "^2.8.2",
         "@parcel/core": "^2.8.2",
         "@parcel/optimizer-data-url": "^2.8.3",
