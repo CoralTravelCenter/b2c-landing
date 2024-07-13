@@ -1,6 +1,6 @@
 {
     "name": "@coraltravelcenter/b2c-landing",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "",
     "repository": {
         "type": "git",
@@ -20,6 +20,7 @@
         "@parcel/config-default": "^2.8.2",
         "@parcel/core": "^2.8.2",
         "@parcel/optimizer-data-url": "^2.8.3",
+        "@parcel/optimizer-terser": "^2.8.3",
         "@parcel/transformer-coffeescript": "^2.8.2",
         "@parcel/transformer-inline-string": "^2.8.3",
         "@parcel/transformer-less": "^2.8.2",
