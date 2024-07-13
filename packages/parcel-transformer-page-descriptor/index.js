@@ -7,7 +7,10 @@ module.exports = new Transformer({
         const page_descriptor = JSON5.parse(source);
         let deps = typeof page_descriptor.contents === 'string' ? [page_descriptor.contents] : page_descriptor.contents;
         for (let dep of deps) {
-            asset.addDependency({ specifier: dep });
+            asset.addDependency({
+                specifier: dep,
+                specifierType : 'url'
+            });
         }
         return [asset];
     },
